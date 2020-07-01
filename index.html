@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">        
+    </head>
+    <body>        
+        <div id="currentPlayer"></div>
+        <div id="WinningPlayer"></div>
+        <button id="reset">Reset the game</button>
+        <br/>
+        <br/>
+        <div>  
+            <br/>
+            <br/>          
+            <table>
+                <tr id="first-row">
+                  <td id="1"></td>
+                  <td id="2" class="vert"></td>
+                  <td id="3"></td>
+                </tr>
+                <tr id="second-row">
+                  <td id="4" class="hori"></td>
+                  <td id="5" class="vert hori"></td>
+                  <td id="6" class="hori"></td>
+                </tr>
+                <tr id="third-row">
+                  <td id="7"></td>
+                  <td id="8" class="vert"></td>
+                  <td id="9"></td>
+                </tr>
+              </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
