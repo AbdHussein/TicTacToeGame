@@ -8,6 +8,7 @@ var togglePlayer = () => {
         setCurrentPlayer(currentPlayer);
     }
 };
+
 var setCurrentPlayer = (Player) => {
     currentPlayerDiv.innerHTML = 'Current Player \n <h1 class="h1">'+Player+'</h1>';
 }
